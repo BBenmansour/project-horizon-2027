@@ -11,3 +11,16 @@ skills = ["Python", "SQL", "Git", "Data Engineering"]
 print("\nSkills I want to develop:")
 for skill in skills:
     print(f"- {skill}")
+# Project Horizon 2027 - Learning Progress
+
+learning_goals = {
+    "Git & GitHub": "In Progress",
+    "Advanced SQL": "Not Started",
+    "Data Engineering": "Not Started",
+    "Microsoft Azure": "Not Started"
+}
+
+print("\nMy Learning Progress:")
+
+for topic, status in learning_goals.items():
+    print(f"{topic}: {status}")
